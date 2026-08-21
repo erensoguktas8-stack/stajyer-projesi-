@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stajyer Yönetim Sistemi</title>
+    <!-- CSS eklemek için -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Stajyer Kayıt Sistemi</h1>
+
+    <div class="container">
+       
+        <section class="form-alani">
+            <h2>Yeni Stajyer Ekle</h2>
+            <form id="ogrenciForm">
+                
+                <label for="isim">İsim:</label>
+                
+                <input type="text" id="isim" name="isim" required>
+
+                <label for="meslek">Meslek:</label>
+                
+                <input type="text" id="meslek" name="meslek" required>
+
+                <label for="departman">Departman:</label>
+                <select id="departman" name="departman">
+                    <option value="Yazılım">Yazılım</option>
+                    <option value="Tasarım">Tasarım</option>
+                    <option value="Sistem">Sistem</option>
+                </select>
+
+                <button type="submit">Kaydet</button>
+            </form>
+        </section>
+
+        <!-- TABLO oluşturdum -->
+        <section class="tablo-alani">
+            <h2>Kayıtlı Stajyerler</h2>
+            <table id="ogrenciTablosu">
+                <thead>
+                    <tr>
+                        <th>İsim</th>
+                        <th>Meslek</th>
+                        <th>Departman</th>
+                        <th>İşlem</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

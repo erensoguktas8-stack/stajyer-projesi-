@@ -1,0 +1,98 @@
+/* Genel Sayfa Ayarları */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Ana Taşıyıcı Kutu */
+.container {
+  max-width: 800px;
+  margin: 0 auto; /* Sayfayı ortalar */
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  border-bottom: 2px solid #0066cc;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: #444;
+  margin-top: 20px;
+}
+
+/* Form Tasarımı */
+form {
+  background-color: #f1f1f1;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Kutunun taşmasını engeller */
+}
+
+/* Genel Buton Tasarımı */
+button {
+  background-color: #0066cc;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0052a3;
+}
+
+/* Tablo Tasarımı */
+table {
+  width: 100%;
+  border-collapse: collapse; /* Çift çizgileri teke düşürür */
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #0066cc;
+  color: white;
+}
+
+td button {
+  background-color: #dc3545;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+td button:hover {
+  background-color: #c82333;
+}
