@@ -41,7 +41,7 @@ function App() {
 
   // Kayıt Silme
   const sil = async (id) => {
-    await fetch(`https://stajyer-backend.onrender.com/api/stajyerler/${id}`, { method: 'DELETE' });
+    await fetch(`/api/stajyerler/${id}`, { method: 'DELETE' });
     stajyerleriGetir();
   };
 
